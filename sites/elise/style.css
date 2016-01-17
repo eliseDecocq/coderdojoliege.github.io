@@ -1,3 +1,4 @@
+
 body {
   font-family: sans-serif;
   background-color: lightblue;
@@ -10,4 +11,27 @@ h1 {
 
 h2 {
   color: purple;
+}
+
+ul#menu {
+  list-style-type : none;
+  margin:0;
+  padding:0;
+}
+ul#menu li {
+  display: block;
+  width:300px;
+  padding:5px;
+  background-color:pink;
+}
+ul#menu li:hover{
+    background-color:red;
+
+}
+li a {
+  text-decoration:none;
+}
+.bleu{
+  background-color: blue;
+  
 }
